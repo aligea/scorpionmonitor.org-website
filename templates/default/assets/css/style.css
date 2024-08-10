@@ -1,0 +1,410 @@
+body{
+   /*background-color:#BDBDBB;*/
+   background-attachment:fixed;
+   background-repeat:no-repeat;
+   background-position:center;
+   /*background-image:url('../img/Dark-Grey-Gradient-Background-8.jpg');*/
+}
+
+.container {
+   width: 970px;
+   max-width: none !important;
+}
+
+#center-content{
+   background-color:#fff;
+   border-radius:10px;
+}
+
+#header-wrapper{
+   display:block;
+   margin-bottom:10px;
+   padding-bottom:10px;
+   border-bottom: 1px solid #e5e5e5;
+   background-color:#FFFFFF;
+   border-radius :10px;
+   box-shadow: 5px 5px 5px #999;
+}
+
+#header-wrapper .tagline{
+   color:#BD4932;
+   font-size:36px;
+   display:inline-block;
+   padding:10px;
+   position:static;
+   bottom:50%;
+   text-align:center;
+}
+
+#header-wrapper .tagline2{
+   font-size:14px;
+   padding:10px 0;
+}
+
+#topinfo-wrapper{
+   background-color:#fff;
+   height:35px;
+   border-radius:10px;
+   padding-top:5px;
+   box-shadow: 5px 5px 5px #999999;
+}
+
+#top-socmed a{
+   padding:5px;
+}
+
+#nav-wrapper{
+   border-radius:10px;
+}
+
+#nav-wrapper .navbar{
+
+}
+
+.nav li .active{
+   background:#ccc;
+}
+
+/* Always float the navbar header */
+#nav-wrapper .navbar-header {
+   float: left;
+}
+
+/* Undo the collapsing navbar */
+#nav-wrapper .navbar-collapse {
+   display: block !important;
+   height: auto !important;
+   padding-bottom: 0;
+   overflow: visible !important;
+   visibility: visible !important;
+}
+
+#nav-wrapper .navbar-toggle {
+   display: none;
+}
+
+#nav-wrapper .navbar-collapse {
+   border-top: 0;
+}
+
+#nav-wrapper .navbar-brand {
+   margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+#nav-wrapper .navbar-nav {
+   float: left;
+   margin: 0;
+}
+#nav-wrapper .navbar-nav > li {
+   float: left;
+}
+#nav-wrapper .navbar-nav > li > a {
+   padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+#nav-wrapper .navbar-nav.navbar-right {
+   float: right;
+}
+
+
+#topinfo-wrapper{
+   margin-bottom:10px;
+}
+
+#banner-wrapper{
+
+}
+
+#content-wrapper .panel{
+   border-radius:10px;
+
+}
+
+#anothernews-wrapper{
+   border-radius:10px;
+   margin-bottom:10px;
+}
+
+.wrapper-nav{
+   border-bottom:1px solid #000;
+}
+.icon-nav{
+   color:#000;
+   float:right;
+}
+.posting-content{
+   padding-top:5px;
+   padding-bottom:5px;
+   margin-top:5px;
+   margin-bottom:5px;
+   border-bottom:0.5px solid #ccc;
+}
+.readmore{
+   padding:3px;
+   float:right;
+}
+.toggleMenu, .toggleMenu:hover{
+   color:#000;
+   text-decoration:none;
+   cursor:pointer;
+   position:relative;
+   top:0;
+}
+.footer_bottom {
+   background: none repeat scroll 0 0 #021315;
+   padding: 1em 0 0.5em;
+}
+.wrapper-brand{
+   border-bottom:0.5px solid #ccc;
+   padding-bottom:5px;
+   margin-bottom:5px;
+}
+.wrapper-brand img{
+   display:inline-block;
+}
+
+
+
+.heading{
+   margin-top:0;padding-top:0;
+}
+
+img.full-width{
+   width:100%;
+}
+
+.tagline h1{
+   padding:0;
+   margin:0;
+}
+.wrapper-brand{
+
+}
+.wrapper-brand .right{
+   padding-right:0;
+
+}
+.wrapper-brand .col-md-2.right{
+   padding:0;
+   margin:0;
+}
+
+/* reset page-header */
+.page-header, .page-header h1, .page-header h2, .page-header h3{
+   padding:0;
+   margin:0;
+}
+
+.page-header{
+   margin-top:5px;
+   margin-bottom:20px;
+   padding-bottom:5px;
+}
+
+marquee{
+
+}
+#socialfeed{
+   background-color:#fff;
+   border-radius:10px;
+   padding:10px;
+   margin-bottom:10px;
+}
+
+
+.socmed-wrapper{
+   margin-top:0px;	
+}
+
+.socmed-wrapper .btn-facebook {
+   background-color: #3b5998;
+   border-color: rgba(0, 0, 0, 0.2);
+   color: #fff;
+}
+
+.socmed-wrapper .btn-twitter {
+   background-color: #55acee;
+   border-color: rgba(0, 0, 0, 0.2);
+   color: #fff;
+}
+
+.socmed-wrapper .btn-youtube {
+   background-color: #e22c29;
+   border-color: rgba(0, 0, 0, 0.2);
+   color: #fff;
+}
+
+.socmed-wrapper .btn-pinterest {
+   background-color: #BD2126;
+   border-color: rgba(0, 0, 0, 0.2);
+   color: #fff;
+}
+.socmed-wrapper .btn-instagram {
+   background-color: #2A5B83;
+   border-color: rgba(0, 0, 0, 0.2);
+   color: #fff;
+}
+.socmed-wrapper .btn-googleplus {
+   background-color: #DC483C;
+   border-color: rgba(0, 0, 0, 0.2);
+   color: #fff;
+}
+.socmed-wrapper .btn-rss {
+   background-color: #FF6600;
+   border-color: rgba(0, 0, 0, 0.2);
+   color: #fff;
+}
+.socmed-wrapper .btn-social-icon {
+   height: 45px;
+   width: 45px;
+   overflow: hidden;
+   padding: 5px 0px;
+   margin-right:5px;
+   /*margin-top:5px;*/
+   margin-bottom:3px;
+   position: relative;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   display:inline-block;
+   text-align:center;
+   font-size:36px;
+   /*border-top-left-radius:0.4em;
+   border-bottom-right-radius:0.4em;*/
+   border-radius:20px;
+   line-height: 1;
+}
+/*-- start animasi --*/
+/* Pulse Shrink */
+@-webkit-keyframes hvr-pulse-shrink {
+   to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+   }
+}
+
+@keyframes hvr-pulse-shrink {
+   to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+   }
+}
+
+.hvr-pulse-shrink {
+   display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+   -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+   -webkit-animation-name: hvr-pulse-shrink;
+   animation-name: hvr-pulse-shrink;
+   -webkit-animation-duration: 0.3s;
+   animation-duration: 0.3s;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+   -webkit-animation-direction: alternate;
+   animation-direction: alternate;
+}
+/* Grow Shadow */
+.hvr-grow-shadow {
+   display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: box-shadow, transform;
+   transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+/* Float Shadow */
+.hvr-float-shadow {
+   display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+   -moz-osx-font-smoothing: grayscale;
+   position: relative;
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: transform;
+   transition-property: transform;
+}
+.hvr-float-shadow:before {
+   pointer-events: none;
+   position: absolute;
+   z-index: -1;
+   content: '';
+   top: 100%;
+   left: 5%;
+   height: 10px;
+   width: 90%;
+   opacity: 0;
+   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+   /* W3C */
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: transform, opacity;
+   transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+   -webkit-transform: translateY(-5px);
+   transform: translateY(-5px);
+   /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+   opacity: 1;
+   -webkit-transform: translateY(5px);
+   transform: translateY(5px);
+   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+
+.fa-refresh {
+   animation-duration: 1s;
+}
+
+
+#loader {
+   display:inline-block;
+}
+#loader i{
+   animation: 0.5s linear 0s normal none infinite running spin;
+}
+
+@keyframes spin {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(359deg);
+   }
+}
+
+#banner-wrapper .row .col-sm-8 {
+   padding:0;
+}
+
+
+/*-- end animasi --*/

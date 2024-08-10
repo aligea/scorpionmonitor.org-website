@@ -1,0 +1,6 @@
+in php 5.2
+
+banyak yang gak compatible lagi.
+
+dokumentasi gak ada, harus baca coding.
+
