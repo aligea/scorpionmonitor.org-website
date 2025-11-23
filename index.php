@@ -2,9 +2,9 @@
 session_start();
 //session_cache_limiter(false);
 //error_reporting(E_USER_DEPRECATED);
-//require 'libraries/class/izyredbean.php';
-require 'libraries/Slim-2.6.2/Slim/Slim.php';
 require 'config.php';
+require 'libraries/class/izyredbean.php';
+require 'libraries/Slim-2.6.2/Slim/Slim.php';
 require 'modules/AppModules.php';
 
 $app = new \Slim\Slim();
