@@ -4,7 +4,7 @@ TODO: migrate, rewrite to PHP 8 ecosystem
 ## Test Environment
 URL: https://teststage.scorpionmonitor.org/
 
-Backend admin Url: https://teststage.scorpionmonitor.org/wp-admin
+Backend admin Url: https://teststage.scorpionmonitor.org/web-admin
 
 username: test
 Password: abcd1234
